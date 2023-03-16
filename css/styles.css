@@ -123,6 +123,7 @@ a {
 }
 /* parent navigation */
 .container1 {
+  height: 100vh;
   background-color: #6bd041;
   background-image: linear-gradient(
     71deg,
