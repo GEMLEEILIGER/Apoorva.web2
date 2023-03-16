@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap");
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.heading1 {
+  color: rgb(54, 68, 199);
+  text-align: center;
+  text-transform: uppercase;
+}
+.register__form {
+  padding: 10px;
+  width: 400px;
+  margin: auto;
+  border: 1px solid red;
+}
+.inputdata {
+  display: flex;
+  flex-direction: column;
+}
+.inputdata > input {
+  padding: 7px;
+}
+.inputdata > label {
+  font-size: 18px;
+}
+.form_button {
+  width: 100%;
+  padding: 7px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.form_button:hover {
+  cursor: pointer;
+  background-color: green;
+}
+.check_box {
+  display: flex;
+  align-items: center;
+}
+.check_box > p {
+  font-size: 12px;
+}
+/* container */
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* navigation */
+.logo > img {
+  width: 60px;
+}
+.navlink {
+  display: flex;
+  list-style: none;
+}
+li {
+  margin: 6px;
+}
+.parent_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+li:hover {
+  cursor: pointer;
+  /* text-decoration: underline; */
+  color: rgb(255, 157, 0);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* homepage */
+.parent__body {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.brief_introduction {
+  font-size: 2.5rem;
+  line-height: 5rem;
+  font-family: "Dancing Script", cursive;
+}
+.my_image {
+  width: 500px;
+}
+
+.text {
+  font-family: "Dancing Script", cursive;
+  font-family: "Pacifico", cursive;
+  font-size: 3;
+}
+.btn {
+  width: 130px;
+  padding: 10px;
+  background-color: #1c61f6;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+/* footer */
+.footer {
+  text-align: center;
+}
+.fa-brands {
+  font-size: 30px;
+  color: #1c61f6;
+}
+/* parent navigation */
+.container1 {
+  background-color: #6bd041;
+  background-image: linear-gradient(
+    71deg,
+    #6bd041 0%,
+    #fb5300 30%,
+    #ffda70 66%,
+    #0df7e3 100%
+  );
+}
+/* about  css */
+.container2 {
+  background-color: #f1dfba;
+  height: 100%;
+}
+.about__image {
+  border-radius: 48px;
+}
+.about__container {
+  display: flex;
+  padding: 20px 50px;
+}
+.about__content {
+  margin-left: 30px;
+}
+.p1 {
+  font-size: 18px;
+}
+.p2 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  padding: 20px 50px;
+}
+
+/* my cv css starting from here */
+.my_cv {
+  width: 90%;
+  margin: auto;
+}
+.cv_image {
+  width: 250px;
+  border-radius: 55%;
+  margin-right: 20px;
+}
+.cv_header {
+  text-align: center;
+}
+.cv_header > p {
+  font-size: 2rem;
+  font-style: italic;
+}
+.cv_header > h1 {
+  text-transform: uppercase;
+}
+.cv_headline {
+  display: flex;
+  align-items: center;
+}
+/* cv properties */
+.cv_properties {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.left__cv {
+  width: 30%;
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: end;
+}
+.left__cv > h3 {
+  color: #1c61f6;
+}
+.right__cv {
+  width: 70%;
+  text-align: start;
+  padding: 20px;
+  background-color: rgb(203, 201, 201);
+}
+.right__cv > h3 {
+  color: #1c61f6;
+}
+/* contact */
+.contact {
+  padding: 50px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+.data_input {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+input {
+  margin-bottom: 10px;
+  outline: none;
+  padding: 10px;
+}
+textarea {
+  margin-bottom: 10px;
+  outline: none;
+}
+.submit_button {
+  background-color: #6bd041;
+  border: none;
+  padding: 7px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  color: white;
+  box-shadow: -6px 0px 9px 18px rgba(230, 9, 9, 0.4) inset;
+}
+.submit_button:hover {
+  cursor: pointer;
+}
